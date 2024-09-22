@@ -16,7 +16,7 @@ public enum DaysEnum {
     }
 
     public static void main(String[] args) {
-        for(DaysEnum daysEnum : DaysEnum.values()){
+        for(DaysEnum daysEnum : DaysEnum.values()){ // values method is not present in the enum , added by the compiler
             System.out.println(daysEnum);
         }
         System.out.println(DaysEnum.valueOf("SUNDAY").val);
